@@ -1,0 +1,131 @@
+#content .card-wrapper {
+    margin-bottom: 24px;
+    padding: 0 12px;
+}
+
+#content .card-wrapper .data-card {
+    height: 182px;
+}
+
+.data-card .header {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 64px;
+}
+
+.data-card .header .card-topic {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.45);
+    line-height: 22px;
+    height: 22px;
+}
+
+.data-card .header .card-total {
+    margin-top: 4px;
+    height: 38px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.data-card .header .card-info {
+    position: absolute;
+    line-height: 14px;
+    right: 0;
+    top: 0;
+}
+
+.card-info .info-icon {
+    font-size: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.45);
+    border-radius: 100%;
+}
+
+.data-card .card-content {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.data-card .card-footer {
+    margin-top: 12px;
+}
+
+/* Text Chart */
+.text-chart {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-end;
+}
+
+.text-chart > :last-child {
+    margin-right: 0;
+}
+
+.trend-info {
+    display: inline-block;
+    line-height: 22px;
+    font-size: 14px;
+    margin-right: 16px;
+}
+
+.trend-info .value {
+    margin-left: 8px;
+}
+
+.trend-info .rising {
+    margin-left: 4px;
+}
+
+/* custom area chart */
+.area-tooltip {
+    width: 120px;
+    height: 32px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.area-tooltip > span {
+    position: absolute;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.85);
+    top: 4px;
+    line-height: 24px;
+}
+
+.area-tooltip > span:first-child {
+    left: 4px;
+}
+.area-tooltip > span:last-child {
+    right: 4px;
+}
+
+@media (max-width: 1120px) {
+    .range-link {
+        display: none;
+    }
+}
+
+.chart-wrapper {
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.chart-wrapper > :last-child {
+    flex-grow: 1;
+}

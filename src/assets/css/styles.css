@@ -1,0 +1,376 @@
+.nav {
+    display: flex;
+    /* position: absolute; */
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    line-height: 96px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2em;
+    background-color: transparent;
+    z-index: 2000;
+}
+
+.nav2 {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    line-height: 64px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2em;
+    background-color: #001529;
+    z-index: 2000;
+}
+
+.image-title {
+    text-align: center;
+    height: auto;
+    background-image: url("https://brite.us/img/header-bg.jpg");
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    margin-bottom: 25px;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 100px 150px 100px;
+}
+
+.image-title .desc1 {
+    font-size: 40px;
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+    margin: 0.5em !important;
+}
+
+.image-title .desc2 {
+    font-size: 60px !important;
+    color: white;
+    font-weight: 700;
+    margin: 0.5em !important;
+}
+
+@media (max-width: 768px) {
+    .image-title {
+        padding: 100px 70px 100px 70px
+    }
+    .image-title .desc1 {
+        font-size: 32px;
+    }
+    .image-title .desc2 {
+        font-size: 48px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .image-title {
+        padding: 100px 40px 50px 40px
+    }    
+    .image-title .desc1 {
+        font-size: 24px;
+    }    
+    .image-title .desc2 {
+        font-size: 36px !important;
+    }    
+}    
+
+.image-title .button {
+    padding: 10px;
+    background-color: #f1592a;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    height: auto;
+    padding: 20px 40px;
+    color: white;
+    line-height: 1.5;
+}
+
+.top-menu {
+    width: 100vw;
+    position: relative;
+}
+
+.logo-container {
+    padding: 100px 0 0 0;
+    text-align: center !important;
+}
+
+.logo {
+    width: 64%;
+    max-width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    text-align: center !important;
+    justify-content: center !important;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.flex {
+    display: flex;
+}
+
+.subject {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .subject {
+        padding: 100px 0;
+    }
+}
+
+.title {
+    font-size: 40px !important;
+    font-weight: 700 !important;
+    color: #58585a !important;
+    text-align: center !important;
+}
+
+.description {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #58585a !important;
+    padding-bottom: 1rem !important;
+    text-align: center !important;
+}
+
+.row {
+    margin: auto;
+}
+
+.card {
+    width: 100%;
+    text-align: left;
+}
+
+.card-body {
+    line-height: 1.5;
+    padding: 1.25rem;
+}
+
+.card-photo {
+    width: 80%;
+    margin: auto;
+    line-height: 1.5
+}
+
+.card-title {
+    line-height: 1.2 !important;
+    color: #58585a !important;
+    font-size: 1.25rem !important;
+    margin-bottom: 0.75rem !important;
+    font-weight: 700 !important;
+}
+
+.font-h3 {
+    font-size: 2rem !important;
+}
+
+.font-h4 {
+    font-size: 1.6rem !important;
+}
+
+.card-took, .card-desc {
+    display: block;
+    line-height: 1.75;
+    color: #6c757d !important;
+    overflow-x: hidden;
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    font-weight: 400;
+}
+
+.card-btn {
+    background-color: #f1592a;
+    border: none;
+    padding: .375rem .75rem;
+    height: auto;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: auto;
+}
+
+.card-btn:hover {
+    background-color: #f18c27 !important;
+    color: white;
+}
+
+.wrapper {
+    height: 128px !important;
+    width: 128px !important;
+    position: relative;
+    display: block !important;
+    margin-bottom: 1em;
+}
+
+.fa-image {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.outer {
+    color: #f1592a;
+    height: 96px !important;
+    width: 96px !important;
+    left: 0;
+    right: 0;
+}
+
+.inner {
+    color: white;
+    height: 48px !important;
+    width: 48px !important;
+    left: 24px;
+    top: 24px;
+}
+
+.absolute {
+    position: absolute;
+}
+.relative {
+    position: relative;
+}
+
+.left {
+    text-align: left;
+}
+
+.avatar {
+    display: block;
+    width: 80% !important;
+    height: auto !important;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.businesscard-btn {
+    background-color: #666;
+    height: auto;
+    width: auto;
+    padding: 4px;
+}
+
+.businesscard-btn:hover {
+    background-color: #7c858d;
+    height: auto;
+    width: auto;
+}
+
+.businesscard-fa {
+    color: white;
+}
+
+.social-btn {
+    border: none;
+    padding: .375rem .75rem;
+    height: auto;
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin: 2px 5px;
+}
+
+.busicard {
+    background-color: #666;
+    border-color:#666;
+    color: white;
+}
+
+.busicard:hover {
+    background-color: #555;
+    border-color:#555;
+    color: white;
+}
+
+.showbio {
+    background-color: #f1592a;
+    border-color:#f1592a;
+    color: white;
+}
+
+.showbio:hover {
+    background-color: #f0430f;
+    border-color:#f0430f;
+    color: white;
+}
+
+.linkedin {
+    background-color:#17a2b8;
+    border-color:#17a2b8;
+    color: white;
+}
+
+.linkedin:hover {
+    background-color:#0d8092;
+    border-color:#0d8092;
+    color: white;
+}
+
+.tooltip {
+    background-color: white !important;
+    color: #666 !important;
+    min-width: 400px;
+}
+
+.contact-form {
+    background: url('https://brite.us/img/map-image.png');
+    padding: 60px 30px;
+    width: 100%;
+    background-color: #212529;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+    height: auto;
+}
+
+.white {
+    color: white !important;
+}
+
+.contact-para {
+    width: 100%;
+    padding: 10px;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-input {
+    padding: 20px !important;
+    height: 64px !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+@media (max-width: 576px) {
+    .contact-form {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 40px 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contact-form {
+        padding: 60px 20px;
+    }
+}

@@ -1,0 +1,130 @@
+.account-container {
+    padding: 8px 40px 8px 16px;
+}
+
+.account-avatar-wrapper {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.account-avatar {
+    width: 144px;
+    height: 144px;
+    margin: 16px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.account-avatar-title {
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.account-avatar-upload {
+    display: block;
+    width: 144px;
+    line-height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.account-form-wrapper {
+    margin-top: 16px;
+}
+
+.security-item {
+    padding: 12px 0;
+    border: none;
+}
+
+.security-item-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.security-item-left {
+    flex-grow: 1;
+}
+
+.security-item-title {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.security-item-desc {
+    display: block;
+    color: rgba(0, 0, 0, .45);
+}
+
+.account-name {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, .85);
+}
+
+.account-desc {
+    color: rgba(0, 0, 0, .65);
+    line-height: 1.5;
+}
+
+.account-block {
+    margin: 16px 0;
+}
+
+.account-block > .block-title {
+    margin-bottom: 12px;
+    color: rgba(0 ,0, 0, .85);
+    font-weight: 500;
+}
+
+.account-tag {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    margin: 0 8px 8px 0;
+    padding: 0 7px;
+    color: rgba(0, 0, 0, .65);
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+.account-tag:hover {
+    opacity: 0.85;
+}
+
+.account-newtag {
+    border: 1px dotted #d9d9d9; 
+}
+
+.account-newtag:hover {
+    cursor: pointer;
+}
+
+.normal-link {
+    color: rgba(0, 0, 0, .65);
+    line-height: 1.5;
+}
+
+.normal-link:hover {
+    color: #1890ff;
+}
+
+.rightpane-content-container {
+    padding: 0 12px 16px;
+}
+
+.post-info {
+    margin-top: 16px;
+    line-height: 20px;
+}
+
+.post-info .post-date {
+    color: rgba(0, 0, 0, .45);
+    margin-left: 16px;
+}

@@ -1,0 +1,815 @@
+.nav {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  line-height: 96px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2em;
+  background-color: transparent;
+  z-index: 2000;
+}
+
+.nav2 {
+  display: flex;
+  top: 0px;
+  width: 100vw;
+  line-height: 64px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2em;
+  background-color: #001529;
+  z-index: 2000;
+}
+
+.fixed {
+  position: fixed;
+  top: 0px;
+}
+
+.offer-image-title {
+  text-align: center;
+  height: auto;
+  background-image: url("http://riversofthinking.com/wp-content/uploads/2014/05/04_investment-800x445.jpg");
+  font-size: 40px;
+  font-style: italic;
+  color: white;
+  background-color: rgb(246, 246, 246);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 150px 100px 150px 100px;
+}
+
+.offer-image-title .desc1 {
+  font-size: 40px;
+  color: black;
+  font-style: italic;
+  font-weight: 700;
+  margin: 0.5em !important;
+}
+
+.offer-image-title .desc2 {
+  font-size: 20px !important;
+  color: black;
+  font-weight: 700;
+  margin: 0.5em !important;
+}
+
+@media (max-width: 768px) {
+  .offer-image-title {
+    padding: 100px 70px 100px 70px;
+  }
+  .offer-image-title .desc1 {
+    font-size: 32px;
+  }
+  .offer-image-title .desc2 {
+    font-size: 48px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .offer-image-title {
+    padding: 100px 40px 50px 40px;
+  }
+  .offer-image-title .desc1 {
+    font-size: 24px;
+  }
+  .offer-image-title .desc2 {
+    font-size: 36px !important;
+  }
+}
+
+.offer-image-title .button {
+  padding: 10px;
+  background-color: #f1592a;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  height: auto;
+  padding: 20px 40px;
+  color: white;
+  line-height: 1.5;
+}
+/* default css */
+.center {
+  text-align: center !important;
+  justify-content: center !important;
+}
+.text-left {
+  text-align: left;
+}
+.text__center {
+  text-align: center;
+}
+.brite-btn {
+  background-color: #f1592a;
+  color: white;
+}
+.margin-t-4 {
+  margin-top: 40px;
+}
+.c-color {
+  color: #f1592a !important;
+}
+/* end */
+
+.top-menu {
+  width: 100vw;
+  position: relative;
+}
+
+/* offer list css  */
+.offer_list_view {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 0;
+}
+@media (min-width: 768px) {
+  .offer_list_view {
+    padding: 100px 0;
+  }
+}
+.offer_list_view .desc {
+  padding-left: 20px;
+}
+.offer-img {
+  background-color: rgb(246, 246, 246);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 200px;
+}
+
+/* card item css */
+.offer-type {
+  justify-content: left !important;
+  color: rgb(171, 180, 186);
+  font-family: "Gotham A", "Gotham B";
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 21px;
+  text-transform: uppercase;
+  padding: 0px;
+  text-align: left;
+}
+@media (min-width: 992px) {
+  .offer-type {
+    font-size: 12px;
+    padding: 20px 0px 0px;
+  }
+}
+.offer-item-name {
+  word-break: break-all;
+  text-align: left;
+  margin-top: 0px !important;
+  cursor: pointer;
+  font-size: 22px;
+  font-family: Raleway;
+  color: rgb(101, 107, 110) !important;
+  font-weight: 400;
+  margin-bottom: 5px;
+  line-height: 26px;
+}
+@media (min-width: 1440px) {
+  .offer-item-name {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .offer-item-name {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+  }
+}
+
+.percent-view {
+  text-align: left;
+  border-left: 2px solid rgb(223, 227, 228);
+  padding-left: 10px;
+  color: rgb(30, 156, 159);
+}
+
+.offering-size {
+  border-radius: 100%;
+  border: solid 2px #f1592a;
+  width: 125px;
+  height: 125px;
+  padding-top: 20px;
+  margin: auto;
+  float: right;
+}
+
+.offer-type-divider {
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+@media (min-width: 992px) {
+  .offer-type-divider {
+    margin-bottom: 20px;
+    padding: 0px 10px;
+  }
+}
+
+.offer-type-divider span {
+  content: "";
+  height: 2px;
+  background: rgb(223, 227, 228);
+  flex: 1 1 0%;
+}
+
+.offer-type-divider p {
+  color: rgb(118, 129, 135);
+  font: 12px/21px "Gotham A", "Gotham B";
+  padding: 0px 10px;
+  margin: 0px !important;
+}
+
+@media (min-width: 992px) {
+  .offer-type-divider p {
+    font-size: 14px;
+    line-height: 0;
+  }
+}
+/* offer detailed css */
+#offer-detail {
+  box-shadow: 0 0 2px 2px lightgrey;
+  margin-top: 80px;
+}
+.padding-zero {
+  padding: 0px !important;
+}
+.title-bg {
+  font-size: 42px !important;
+  line-height: 48px !important;
+  font-weight: unset !important;
+  color: rgb(53, 56, 58) !important;
+  margin-bottom: 0px !important;
+}
+.launch_part {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  align-items: start;
+  position: relative;
+  margin-top: 15px;
+  background-color: rgb(255, 255, 255);
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(118, 129, 135);
+  max-width: 275px;
+  padding: 10px 0px 10px 45px;
+  border-top: 1px solid rgb(229, 207, 10);
+  border-bottom: 1px solid rgb(229, 207, 10);
+}
+.launch_part::before {
+  content: url(https://www.yieldstreet.com/static/media/attention.adba4ed7.svg);
+  position: absolute;
+  display: block;
+  top: 52%;
+  left: 1%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .launch_part {
+    max-width: 412px;
+  }
+}
+
+@media (min-width: 576px) {
+  .launch_part {
+    max-width: 90%;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+}
+
+.image-bg {
+  height: 400px !important;
+}
+.funded-content {
+  color: rgb(118, 129, 135);
+  font-family: "Gotham A", "Gotham B";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: center;
+  padding: 0px 0px 10px;
+}
+@media (min-width: 992px) {
+  .funded-content {
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .funded-content {
+    padding: 10px 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .funded-content {
+    font-size: 14px;
+  }
+}
+
+.card-content-section {
+  display: flex;
+  flex-direction: column;
+  border-top-width: 3px;
+  border-image-source: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgb(248, 249, 250) 19%,
+    rgb(239, 242, 246) 73%,
+    rgb(255, 255, 255)
+  );
+  border-image-slice: 1;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  background: linear-gradient(rgb(255, 255, 255) 60%, rgb(248, 249, 250));
+  border-bottom: 0px solid;
+  border-style: solid;
+  margin: 0px auto;
+  padding: 40px 20px 90px;
+}
+@media (min-width: 992px) {
+  .card-content-section {
+    display: block;
+    padding: 60px 64px 104px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-content-section {
+    padding: 40px 40px 104px;
+  }
+}
+
+.border-none {
+  border: none !important;
+}
+
+.opportunity__title {
+  font-size: 21px;
+  color: rgb(53, 56, 58);
+  font-weight: 400;
+  margin: 0px !important;
+}
+@media (min-width: 576px) {
+  .opportunity__title {
+    margin-top: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .opportunity__title {
+    font-size: 26px;
+  }
+}
+@media (min-width: 992px) {
+  .opportunity__title {
+    font-size: 28px;
+  }
+}
+@media (min-width: 992px) {
+  .opportunity-part {
+    padding-bottom: 30px;
+  }
+}
+.text__left {
+  text-align: left;
+}
+.opportunity__text {
+  font-family: "Gotham A", "Gotham B";
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgb(82, 87, 90);
+  text-align: left;
+}
+.opportunity__text a {
+  color: #f1592a !important;
+  text-decoration: none;
+}
+
+.opportunity__image {
+  max-width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+.opportunity__item-title {
+}
+
+.opportunity__item-title {
+  color: rgb(53, 56, 58);
+  font-weight: 400;
+  position: relative;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Gotham A", "Gotham B";
+}
+@media (min-width: 576px) {
+  .opportunity__item-title {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .opportunity__item-title {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 992px) {
+  .opportunity__item-title {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 768px) {
+  .opportunity__item-title {
+    font-size: 20px;
+    margin-left: 0px;
+  }
+}
+
+.opportunity__item-text {
+  font-family: "Gotham A", "Gotham B";
+  font-size: 14px;
+  color: rgb(82, 87, 90);
+  line-height: 1.57;
+  letter-spacing: 0.2px;
+}
+@media (min-width: 992px) {
+  .opportunity__item-text {
+    padding-bottom: 20px;
+  }
+}
+.c-border {
+  border-top: 1px solid #f1592a !important;
+}
+.border-weight {
+  border-top: 3px solid #f1592a !important;
+}
+.c-card {
+  box-shadow: rgba(60, 63, 65, 0.05) 0px 29px 30px 0px;
+  z-index: 2;
+  background: rgb(255, 255, 255);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(41, 171, 100) rgb(223, 227, 228) rgb(223, 227, 228);
+  border-image: initial;
+  border-top: 1px solid rgb(41, 171, 100);
+  margin: 20px 0px;
+  padding: 21px 15px 30px;
+  text-align: left;
+  /* max-height: 500px !important; */
+}
+
+@media (min-width: 1440px) {
+  .c-card {
+    width: 537px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .c-card {
+    width: 500px;
+    /* margin: 0px 15px; */
+  }
+}
+
+@media (min-width: 768px) {
+  .c-card {
+    /* margin: 20px 15px; */
+    padding: 27px 30px 57px;
+  }
+}
+
+.c-title {
+  color: rgb(53, 56, 58);
+  font-family: Raleway;
+  font-size: 21px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .c-title {
+    font-size: 24px;
+  }
+}
+
+.c-dec-o {
+  color: rgb(90, 98, 102);
+  display: flex;
+  flex-direction: row;
+  font-family: "Gotham A", "Gotham B";
+  font-size: 14px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  line-height: 21px;
+}
+@media (min-width: 768px) {
+  .c-dec-o {
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+.schedule-part {
+  position: relative;
+}
+.consider_card_body {
+  display: -webkit-inline-box;
+}
+.consider__card {
+  margin-top: 20px !important;
+  max-width: 100%;
+  box-shadow: rgba(60, 63, 65, 0.07) 0px 0px 17px 0px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: white;
+  padding: 0px 20px;
+  margin: 0px auto 30px;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .consider__card {
+    max-width: 600px;
+    padding: 0px 60px;
+  }
+}
+@media (min-width: 992px) {
+  .consider__card {
+    max-width: unset;
+    min-height: 300px;
+    flex-direction: row;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    padding: 0px 30px;
+  }
+}
+
+.risk__part__c {
+  width: 30% !important;
+  text-align: left;
+  margin-top: 75px;
+}
+@media (min-width: 768px) {
+  .risk__part__c {
+    width: 230px;
+    margin: 55px 0px 125px;
+  }
+}
+@media (min-width: 992px) {
+  .risk__part__c {
+    margin: 55px 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .risk__part__c {
+    width: 300px;
+    margin: 60px 0px;
+  }
+}
+
+.risk_title {
+  color: rgb(53, 56, 58);
+  font-size: 16px;
+  line-height: 1.5;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+@media (min-width: 768px) {
+  .risk_title {
+    margin: 17px 0px 15px;
+  }
+}
+@media (min-width: 992px) {
+  .risk_title {
+    font-size: 20px;
+    line-height: 1.05;
+  }
+}
+.risk_title::before {
+  content: url(https://www.yieldstreet.com/static/media/risk-icon.90740e89.svg);
+  position: absolute;
+  top: -45px;
+}
+
+@media (min-width: 768px) {
+  .risk_title::before {
+    top: -50px;
+  }
+}
+@media (min-width: 992px) {
+  .risk_title::before {
+    top: -55px;
+  }
+}
+.risk_description {
+  color: rgb(118, 129, 135);
+  font-size: 14px;
+  line-height: 1.57;
+  letter-spacing: 0.2px;
+}
+
+.mitigation__part_c {
+  width: 70% !important;
+  text-align: left !important;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  position: relative;
+}
+@media (min-width: 992px) {
+  .mitigation__part_c {
+    margin-bottom: 0px;
+    padding-left: 150px;
+    max-width: 600px;
+    margin-top: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .mitigation__part_c {
+    max-width: 1015px;
+    padding-left: 250px;
+  }
+}
+
+.mitigation_back_c {
+  display: none;
+}
+@media (min-width: 992px) {
+  .mitigation_back_c {
+    display: block;
+    width: 100%;
+    min-height: 110%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background: url(https://www.yieldstreet.com/static/media/border-arrow.9270fd3f.svg)
+      0px 0px / contain no-repeat;
+  }
+}
+
+.mitigation_title {
+  color: rgb(53, 56, 58);
+  font-size: 16px;
+  line-height: 1.5px;
+  position: relative;
+  margin: 30px 0px 15px;
+}
+
+@media (min-width: 768px) {
+  .mitigation_title {
+    margin: 50px 0px 20px;
+  }
+}
+@media (min-width: 992px) {
+  .mitigation_title {
+    font-size: 20px;
+    line-height: 1.05;
+    margin: 40px 0px 20px;
+  }
+}
+
+.mitigation_title::before {
+  position: absolute;
+  content: url(https://www.yieldstreet.com/static/media/double-arrow.fb279c53.svg);
+  top: -55px;
+}
+@media (min-width: 768px) {
+  .mitigation_title::before {
+    top: -70px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mitigation_title::before {
+    top: -2px;
+    left: -35px;
+  }
+}
+
+.mitigation_ul_description {
+  padding-left: 20px;
+}
+@media (min-width: 768px) {
+  .mitigation_ul_description {
+    padding-left: 25px;
+  }
+}
+@media (min-width: 992px) {
+  .mitigation_ul_description {
+    padding-left: 30px;
+  }
+}
+
+.desc-item__desc {
+  list-style: none !important;
+  color: rgb(118, 129, 135);
+  font-size: 14px;
+  line-height: 1.57;
+  letter-spacing: 0.2px;
+  position: relative;
+  margin-top: 12px;
+  background: rgba(255, 255, 255, 0.8);
+}
+.desc-item__desc::before {
+  content: "• ";
+  font-size: 20px;
+  color: rgb(171, 180, 186);
+  position: absolute;
+  left: -16px;
+  top: -5px;
+}
+
+.more__questions {
+  height: 271px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px 45px;
+  background: rgb(248, 249, 250);
+}
+@media (min-width: 768px) {
+  .more__questions {
+    height: 309px;
+  }
+}
+.question_title {
+  font-size: 21px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: rgb(53, 56, 58);
+}
+@media (min-width: 768px) {
+  .question_title {
+    margin-bottom: 20px;
+    font-size: 26px;
+    line-height: 2.12;
+  }
+}
+@media (min-width: 992px) {
+  .question_title {
+    font-size: 28px;
+    line-height: 1.96;
+  }
+}
+
+.question_text {
+  max-width: 470px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  line-height: 1.57;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: rgb(82, 87, 90);
+}
+@media (min-width: 768px) {
+  .question_text {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+@media (min-width: 992px) {
+  .question_text {
+    margin-bottom: 20px;
+  }
+}
+.question_part_faq {
+}
+.question_part_faq > a {
+  font-size: 16px;
+  padding: 0px 15px;
+  color: #f1592a !important;
+}
+@media (min-width: 768px) {
+  .question_part_faq > a {
+    font-size: 18px;
+  }
+}
+
+.question_part_faq > a:first-child {
+  border-right: 1px solid rgb(118, 129, 135);
+}

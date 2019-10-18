@@ -1,0 +1,208 @@
+.top-menu {
+  width: 100%;
+  position: relative;
+}
+
+.legal-privacy {
+    background-image: url("../img/privacy_policy_banner.jpg");
+}
+
+.legal-terms {
+    background-image: url("../img/terms_of_service.jpg");
+}
+
+.legal-disclaimer {
+    background-image: url("../img/disclaimer.jpg");
+}
+
+.legal-image-title {
+  text-align: center;
+  height: auto;
+  font-size: 40px;
+  font-style: italic;
+  color: white;
+  background-color: rgb(246, 246, 246);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 100px;
+}
+
+.legal-image-title .desc1 {
+  font-size: 40px;
+  color: black;
+  font-style: italic;
+  font-weight: 700;
+  margin: 0.5em !important;
+}
+
+.legal-image-title .desc2 {
+  font-size: 20px !important;
+  color: black;
+  font-weight: 700;
+  margin: 0.5em !important;
+}
+
+.legal-image-title .button {
+  padding: 10px;
+  background-color: #f1592a;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  height: auto;
+  padding: 20px 40px;
+  color: white;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .legal-image-title {
+    padding: 100px 70px 100px 70px;
+  }
+  .legal-image-title .desc1 {
+    font-size: 32px;
+  }
+  .legal-image-title .desc2 {
+    font-size: 48px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .legal-image-title {
+    padding: 100px 40px 50px 40px;
+  }
+  .legal-image-title .desc1 {
+    font-size: 24px;
+  }
+  .legal-image-title .desc2 {
+    font-size: 36px !important;
+  }
+}
+
+.privacy_list_view {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 0;
+}
+@media (min-width: 768px) {
+  .privacy_list_view {
+    padding: 100px 0;
+  }
+}
+.privacy_list_view .desc {
+  padding-left: 20px;
+}
+.offer-img {
+  background-color: rgb(246, 246, 246);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 200px;
+}
+/* privacy content css */
+.privacy_content_view {
+  text-align: left;
+}
+.privacy_content_view .title {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  display: -webkit-box;
+}
+.privacy_content_view .sub-title {
+  font-size: 12px;
+  color: black;
+  display: -webkit-box;
+  margin-bottom: 20px;
+}
+.privacy_content_view .description {
+  text-align: justify !important;
+  display: -webkit-box;
+  font-size: 18px !important;
+}
+.privacy_content_view .sub-description {
+  text-align: justify !important;
+  display: -webkit-box;
+  font-size: 16px !important;
+}
+
+.policy_list_section {
+  /* padding: 200px; */
+  position: relative;
+  width: 100%;
+  text-align: left;
+  margin-top: 45px;
+  margin-bottom: 60px;
+}
+
+.privacy-list-bar {
+  flex-direction: column !important;
+  list-style: none;
+  text-align: left;
+  padding-left: 0px !important;
+  color: #58585a !important;
+}
+.list-bar-item {
+  font-size: 16px;
+  border-bottom: 1px solid rgb(223, 227, 228);
+  padding: 10px 0;
+}
+.list-bar-item a {
+  padding-top: 10px;
+  text-align: justify;
+  color: #58585a !important;
+  /* color: #f1592a; */
+  width: 100%;
+  height: 100%;
+}
+
+.policy_item_title {
+  font-size: 25px;
+  text-align: left;
+  display: -webkit-box;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #58585a !important;
+}
+.policy_item_sub_title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #58585a !important;
+  display: -webkit-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.policy_item_description {
+  text-align: justify !important;
+  display: -webkit-box;
+  font-size: 16px;
+  color: #58585a !important;
+  margin-bottom: 20px;
+}
+/* .list-bar-item a:hover {
+  cursor: pointer;
+  background-color: #f1592a;
+} */
+
+/* ul css */
+.policy_ul_bar {
+  font-size: 16px !important;
+}
+.decimal_list_type {
+  list-style-type: decimal;
+}
+.policy_li_item {
+  margin-bottom: 10px;
+}
+.li_section {
+  display: inline-grid;
+}
+
+/* table of contents css */
+.table_of_contents {
+  margin-top: 50px;
+}

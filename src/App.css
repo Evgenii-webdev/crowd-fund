@@ -1,0 +1,14 @@
+﻿@import '~antd/dist/antd.css';
+
+.App {
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+.align-center {
+    display: inline-flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}

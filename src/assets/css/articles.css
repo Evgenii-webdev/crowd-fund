@@ -1,0 +1,137 @@
+
+.top-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    width: 100%;
+    height: 24px;
+    margin: auto;
+}
+
+.ant-upload-select-picture-card i {
+    font-size: 32px;
+    color: #999;
+}
+  
+.ant-upload-select-picture-card .ant-upload-text {
+    margin-top: 8px;
+    color: #666;
+}
+
+.text-center {
+    text-align: center;
+    align-content: center;
+}
+
+.submit-btn {
+    width: 160px;
+}
+
+.article {
+    display: block;
+    height: 150px;
+    width: 100%;
+    border-bottom: 1px solid #CCC;
+    color: #333;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.article-body {
+    flex-grow: 1;
+    width: 'calc(100%-160px)';
+    height: 100%;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.article-cover {
+    display: inline-block;
+    flex-grow: 0;
+}
+
+.flex-vcenter {
+    align-items: center;
+}
+
+.right > span {
+    padding-right: 8px;
+}
+
+.article-topbar {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.6;
+    height: 16px;
+    width: 100%;
+    text-align: left;
+    color: royalblue;
+}
+
+.margin-top6 {
+    margin-top: 6px;
+}
+
+.article-post {
+    font-size: 14px;
+    font-weight: 300;
+    width: 100%;
+    text-align: left;
+}
+
+.article-title {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.article-desc {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.art-detail-topbar {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+    height: 32px;
+    width: 100%;
+    text-align: left;
+    color: rgb(1, 41, 161);
+}
+
+.art-detail-post {
+    height: 48px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.art-detail-cover > img {
+    width: 100%;
+    height: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.art-detail-content {
+    padding: 8px;
+}
+
+.art-detail-desc {
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.art-detail-full {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+}
